@@ -1,0 +1,801 @@
+.Navabar
+{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  padding: 0px 0px 0px 0px;
+  background-color: white;
+  border: 1px solid black;
+}
+.main-nav
+{
+  position: relative;
+  top: 0%;
+  left: 0%;
+}
+.nav-links
+{
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+.main-nav .navabar-span
+{
+  border-bottom: 2px solid black;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 0%;
+  margin-top: 15px;
+}
+.main-nav:hover .navabar-span
+{
+  width: 100%;
+}
+.drone-nav-img
+{
+  width: 90%;
+}
+.drone-nav-p
+{
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+.cameradronenames
+{
+  text-align: center;
+  padding: 64px 0px 32px 0px;
+}
+.cameradronenames h1
+{
+  font-weight: 500;
+  line-height: 52px;
+  font-size: 48px;
+}
+.cameradronenames p
+{
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.camera-img-main
+{
+  position: relative;
+  top: 0%;
+  left: 0%;
+}
+.camera-main-img
+{
+  width: 100%;
+  height: 120%;
+}
+.camera-img-vice
+{
+  position: absolute;
+  top: 25%;
+  line-height: 24px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  text-align: center;
+}
+.camera-img-vice p
+{
+  font-size: 15px;
+  line-height: 16px;
+  opacity: 0.7;
+  margin-bottom: 0%;
+}
+.camera-img-vice h1
+{
+ font-size: 40px;
+ margin-bottom: 0%;
+}
+.camera-img-vice div
+{
+  font-size: 16px;
+}
+.camera-main-link{
+  margin-top: 24px;
+  font-size: 16px;
+}
+.camera-links{
+  display: inline;
+}
+.App-vice
+{
+  margin-top: 60px;
+}
+.drones-imgs-camera
+{
+  overflow: hidden;
+}
+.areial-camera
+{
+  margin-top: 60px;
+}
+
+.camera-link-vice{
+  color: white;
+  text-decoration: none;
+}
+.camera-link-vice:hover{
+ border-bottom: 1px solid white;
+}
+.camera-vice-img
+{
+  width: 100%;
+  height: 500px;
+}
+.camera-drone-main-wrapper
+{
+  position: relative;
+  top: 0%;
+  left: 0%;
+}
+.camera-drone-vice-wrapper
+{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.camera-drone-vice-wrapper p
+{
+  color: #BE4E04;
+  font-size: 13px;
+}
+.camera-drone-vice-wrapper img
+{
+  width: 298px;
+}
+.camera-drone-vice-wrapper h3
+{
+  font-size: 13px;
+  line-height: 44px;
+  margin-top: 20px;
+}
+.camera-main-wrapper-link{
+  margin-top: 24px;
+  font-size: 16px;
+  background-color: aqua;
+}
+.camera-wapper-links
+{
+  display: inline-block;
+}
+.camera-link-wrapper-vice
+{
+  font-size: 16px;
+  text-decoration: none;
+}
+.camera-link-wrapper-vice:hover{
+border-bottom: 1px solid blue;
+}
+.drone-is-right-for-you
+{
+  padding: 67px 0px;
+}
+.drone-is-right-for-you-colno-1-h2
+{
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: -1.2px;
+}
+.nav-tabs-drone-detaile
+{
+  display: flex; justify-content: center;
+}
+.nav-tabs-links-drone-detaile
+{
+  background-color: transparent;
+  border: none;
+  padding: 14px 14px;
+  font-size: 14px;
+  text-align: center;
+  height: 48px;
+}
+.drone-search-p
+{
+  color: #BE4E04;
+  font-size: 12px;
+}
+.nav-btns
+{
+  font-size: 14px;
+  padding: 14px 16px;
+  border: 1px solid black;
+  background-color: transparent;
+  border-radius: 30px;
+}
+.nav-btns:hover
+{
+  background-color: #f8f7f7;
+}
+.card-icon
+{
+  font-size: 13px;
+  color: blue;
+  font-weight: bold;
+}
+.card-links
+{
+  text-decoration: none;
+}
+.card-links:hover
+{
+  border-bottom: 1px solid blue;
+}
+
+.nav-bag-icon
+{
+  background-color: blue;
+  padding: 5px 10px 7px 10px;
+  color: white;
+  align-items: center;
+  border-radius: 50px;
+}
+.nav-bag-icon:hover
+{
+  color: white;
+}
+.login-icon
+{
+  position: relative;
+  top: 0%;
+  left: 0%;
+}
+.login-icon-vice
+{
+  position: absolute;
+  right: 0%;
+  top: 100%;
+  display: none;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.links-login:hover
+{
+  background-color: #c5c7c7;
+}
+.login-icon:hover .login-icon-vice
+{
+  display: block;
+  z-index: 99;
+}
+.login-main
+{
+  background: url('https://account.djicdn.com/img/banner-02.10b47798.webp');
+  height: 110vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.login-form
+{
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(-50%,-40%);
+  background-color: white;
+  width: 464px;
+  padding: 48px 28px;
+}
+.register-form
+{
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(-50%,-30%);
+  background-color: white;
+  width: 464px;
+  padding: 48px 28px;
+}
+input[type="password"]::-ms-reveal {
+  display: none;
+}
+.register-main
+{
+  background-image: url('https://account.djicdn.com/img/banner-01.f2ab4f00.webp');
+  height: 130vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.nav-areail-link
+{
+  border: none;
+  padding: 15px 10px;
+  border-radius: 30px;
+}
+.nav-areail-link.active
+{
+  background-color: #DFDFDF;
+}
+
+/* .js-search[type=text]{
+  position: relative;
+  padding: 5px 40px 5px 20px;
+  width: 20px;
+  color: #525252;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  border: none;
+  background: linear-gradient(to right, #FFFFFF 0%,#464747 #F9F9F9 100%);
+  transition: width 0.4s ease;
+  outline: none;
+  
+  &:focus{ width: 350px; }
+}
+
+.icon-serach{
+  position: relative;
+  left: -37px;
+}
+.js-search:hover
+{
+  background-color: #464747;
+  
+} */
+
+
+.hamburger {
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  background-color: #fff;
+  width: 24px;
+  /* The following 2 properties are essential in creating the "X" when the hamburger is clicked. If you change just 1 of the 2, then you need to find the proper combination for the other one */
+  height: 2px;
+  margin: 6px auto;
+
+  /*    -webkit-transition: all 300ms ease;  */
+  transition: all 300ms ease-in-out;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+.description
+{
+  margin-top: 65px;
+  background-color: #d4d5d6;
+}
+.desc-name
+{
+  font-size: 18px;
+  font-weight: 500;
+  color: #212121;
+  margin-bottom: 15px;
+}
+.desc-type
+{
+  font-size: 14px;
+  margin-bottom: 0%;
+  color: #212121;
+}
+.desc-price
+{
+  font-size: 25px;
+  color: #212121;
+  font-weight: 600;
+  margin-bottom: 1%;
+}
+.desc-price-del
+{
+  color: #878787;
+  font-size: 14px;
+}
+.desc-off
+{
+  font-size: 13px;
+  margin: 0%;
+  color: #388E3c;
+  font-weight: 600;
+}
+.desc-free
+{
+  font-size: 12px;
+  color: #000000;
+  margin-bottom: 0%;
+}
+.desc-few
+{
+  color: rgb(199, 0, 85);
+  font-size: 12px;
+    font-weight: 600;
+}
+.product-option
+{
+  font-size: 12px;
+  border: 1px solid #e0e0e0;
+}
+.discounte
+{
+  font-size: 13px;
+  color: #212121;
+  padding-left: 16px;
+  padding-top: 15px;
+  font-weight: 600;
+}
+@media(min-width:0px) and (max-width:576px)
+{
+  .App-vice{
+    width: 440px;
+    margin: auto;
+    margin-top: 56px;
+  }
+  .cameradronenames
+{
+  text-align: center;
+  padding: 30px 0px 32px 0px;
+}
+.cameradronenames h1
+{
+  font-size: 32px;
+}
+.camera-main-img
+{
+  width: 250%;
+  height:564px;
+  margin-left: -80%;
+}
+.camera-img-vice
+{
+  position: absolute;
+  top: 25%;
+  line-height: 24px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  text-align: center;
+}
+.camera-img-vice p
+{
+  font-size: 12px;
+}
+.camera-img-vice h1
+{
+ font-size: 35px;
+ margin-bottom: 5%;
+}
+.camera-img-vice div
+{
+  font-size: 14px;
+}
+.camera-links{
+  display: inline;
+  font-size: 15px;
+}
+.camera-vice-img
+{
+  width: 100%;
+  height: 400px;
+}
+.camera-drone-vice-wrapper
+{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.camera-drone-vice-wrapper p
+{
+  color: #BE4E04;
+  font-size: 12px;
+}
+.camera-drone-vice-wrapper img
+{
+  width: 298px;
+}
+.camera-drone-vice-wrapper h3
+{
+  font-size: 13px;
+  line-height: 44px;
+  margin-top: 0px;
+}
+.camera-main-wapper-link
+{
+  display: flex;
+  justify-content: center;
+}
+.camera-link-wrapper-vice
+{
+  font-size: 13px;
+}
+.drones-imgs-camera
+{
+  overflow: scroll;
+}
+
+}
+@media(min-width:576px) and (max-width:768px)
+{
+  .App-vice{
+    width: 440px;
+    margin: auto;
+    margin-top: 56px;
+  }
+  .cameradronenames
+  {
+    text-align: center;
+    padding: 30px 0px 32px 0px;
+  }
+  .cameradronenames h1
+  {
+    font-size: 32px;
+  }
+  .camera-main-img
+  {
+    width: 250%;
+    height:564px;
+    margin-left: -80%;
+  }
+  .camera-img-vice
+{
+  position: absolute;
+  top: 25%;
+  line-height: 24px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  text-align: center;
+}
+.camera-img-vice p
+{
+  font-size: 12px;
+}
+.camera-img-vice h1
+{
+ font-size: 35px;
+ margin-bottom: 5%;
+}
+.camera-img-vice div
+{
+  font-size: 14px;
+}
+.camera-links{
+  display: inline;
+  font-size: 15px;
+}
+.camera-vice-img
+{
+  width: 100%;
+  height: 400px;
+}
+.camera-drone-vice-wrapper
+{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.camera-drone-vice-wrapper p
+{
+  color: #BE4E04;
+  font-size: 12px;
+}
+.camera-drone-vice-wrapper img
+{
+  width: 298px;
+}
+.camera-drone-vice-wrapper h3
+{
+  font-size: 13px;
+  line-height: 44px;
+  margin-top: 0px;
+}
+.camera-main-wapper-link
+{
+  display: flex;
+  justify-content: center;
+}
+.camera-link-wrapper-vice
+{
+  font-size: 13px;
+}
+.drones-imgs-camera
+{
+  overflow: scroll;
+}
+}
+@media(min-width:768px) and (max-width:992px)
+{
+  .App-vice{
+    width: 440px;
+    margin: auto;
+    margin-top: 56px;
+  }
+  .cameradronenames
+  {
+    text-align: center;
+    padding: 30px 0px 32px 0px;
+  }
+  .cameradronenames h1
+  {
+    font-size: 32px;
+  }
+  .camera-main-img
+  {
+    width: 250%;
+    height:564px;
+    margin-left: -80%;
+  }
+  .camera-img-vice
+{
+  position: absolute;
+  top: 25%;
+  line-height: 24px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  text-align: center;
+}
+.camera-img-vice p
+{
+  font-size: 12px;
+}
+.camera-img-vice h1
+{
+ font-size: 35px;
+ margin-bottom: 5%;
+}
+.camera-img-vice div
+{
+  font-size: 14px;
+}
+.camera-links{
+  display: inline;
+  font-size: 15px;
+}
+.camera-vice-img
+{
+  width: 100%;
+  height: 400px;
+}
+.camera-drone-vice-wrapper
+{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.camera-drone-vice-wrapper p
+{
+  color: #BE4E04;
+  font-size: 12px;
+}
+.camera-drone-vice-wrapper img
+{
+  width: 298px;
+}
+.camera-drone-vice-wrapper h3
+{
+  font-size: 13px;
+  line-height: 44px;
+  margin-top: 0px;
+}
+.camera-main-wapper-link
+{
+  display: flex;
+  justify-content: center;
+}
+.camera-link-wrapper-vice
+{
+  font-size: 13px;
+}
+.drones-imgs-camera
+{
+  overflow: scroll;
+}
+}
+@media(min-width:992px) and (max-width:1200px)
+{
+  .App-vice{
+    width: 440px;
+    margin: auto;
+    margin-top: 56px;
+  }
+  .cameradronenames
+  {
+    text-align: center;
+    padding: 30px 0px 32px 0px;
+  }
+  .cameradronenames h1
+  {
+    font-size: 32px;
+  }
+  .camera-main-img
+  {
+    width: 250%;
+    height:564px;
+    margin-left: -80%;
+  }
+  .camera-img-vice
+{
+  position: absolute;
+  top: 25%;
+  line-height: 24px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  text-align: center;
+}
+.camera-img-vice p
+{
+  font-size: 12px;
+}
+.camera-img-vice h1
+{
+ font-size: 35px;
+ margin-bottom: 5%;
+}
+.camera-img-vice div
+{
+  font-size: 14px;
+}
+.camera-links{
+  display: inline;
+  font-size: 15px;
+}
+.camera-vice-img
+{
+  width: 100%;
+  height: 400px;
+}
+.camera-drone-vice-wrapper
+{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.camera-drone-vice-wrapper p
+{
+  color: #BE4E04;
+  font-size: 12px;
+}
+.camera-drone-vice-wrapper img
+{
+  width: 298px;
+}
+.camera-drone-vice-wrapper h3
+{
+  font-size: 13px;
+  line-height: 44px;
+  margin-top: 0px;
+}
+.camera-main-wapper-link
+{
+  display: flex;
+  justify-content: center;
+}
+.camera-link-wrapper-vice
+{
+  font-size: 13px;
+}
+.drones-imgs-camera
+{
+  overflow: scroll;
+}
+}
