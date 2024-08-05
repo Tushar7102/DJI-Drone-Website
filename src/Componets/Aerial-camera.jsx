@@ -13,7 +13,7 @@ aerial camera</p>
   <div className='row'>
     <div className='col-12'>
     <div className="d-flex align-items-start row">
-  <div className="nav flex-column nav-pills col-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+  <div className="nav flex-column nav-pills col-12 col-xl-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
     <button className="nav-areail-link active text-start ps-4" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">DJI Mavic Series</button>
     <button className="nav-areail-link text-start ps-4" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">DJI Air Series</button>
     <button className="nav-areail-link text-start ps-4" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">DJI Mini Series</button>

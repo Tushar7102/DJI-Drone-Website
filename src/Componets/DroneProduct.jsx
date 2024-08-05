@@ -14,11 +14,12 @@ export function DroneProduct() {
         descfunction()
     },[])
   return (
-    <div className='container-fluid description'>
-    <div className='row bg-white ms-0 m-2'>
+    <div className='main-description'>
+          <div className='container-fluid description'>
+    <div className='row bg-white ms-0 m-2 me-0 me-xl-2'>
       <div className='col-12'>
         <div className='row'  style={{flexWrap:"nowrap", backgroundColor:"#d4d5d6"}}>
-        <div className='col-2 ms-0 mt-2 m-1 bg-white' style={{height:"auto"}}>
+        <div className='col-2 d-none d-xl-block ms-0 mt-2 m-1 bg-white' style={{height:"auto"}}>
         <div className='row'>
           <div className='col-12 p-0'>
             <h2 style={{padding:"16px 16px 12px 16px", borderBottom:"1px solid #f0f0f0", fontSize:"18px", fontWeight:"500"}}>Filter</h2>
@@ -85,14 +86,15 @@ export function DroneProduct() {
           </div>
         </div>
      </div>
-     <div className='col-10 mt-2 bg-white'>
+     <div className='col-12 col-xl-10 mt-2 bg-white'>
      {productdata.map((el)=>(
           <div key={el.id} style={{ width:"100%"}} className='col-12 mb-3 pt-3'>
           <Link to={`/descriptionmain/${el.id}`} className='row text-decoration-none pb-3'  style={{display:"flex", borderBottom:"1px solid #f0f0f0"}}>
-            <div className='col-2'>
+            <div className='col-12 col-xl-2 d-flex justify-content-center'>
             <img src={el.image[0]} width={200} height={200} className='img-fluid'></img>
+            {/* <i class="bi bi-heart-fill"></i> */}
             </div>
-            <div className='col-6'>
+            <div className='col-12 col-xl-6'>
             <h1 className='desc-name'>{el.name}</h1>
             <p className='desc-type'>Type : {el.type}</p>
             <p className='desc-type'>Control Range : {el.range}</p>
@@ -115,6 +117,7 @@ export function DroneProduct() {
      </div>
         </div>
       </div>
+    </div>
     </div>
     </div>
   )

@@ -64,7 +64,7 @@ function Navbar() {
     </button>
     <a className="navbar-brand" href="#"><img src='https://www1.djicdn.com/dps/78800252c507990e5f033805ae463a99.svg'></img></a>
     <span className=''>
-             <IoBagHandleOutline style={{margin:"0px 10px 0px 0px", fontSize:"25px"}}/>
+             <Link className='text-dark' to='/description'><IoBagHandleOutline style={{margin:"0px 10px 0px 0px", fontSize:"25px"}}/></Link>
              </span>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className='list-unstyled '>
@@ -85,7 +85,7 @@ function Navbar() {
   
 </nav>
 
-<div className="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+<div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
   <div className="offcanvas-header">
     <h5 className="offcanvas-title" id="offcanvasLabel">Offcanvas</h5>
     <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
