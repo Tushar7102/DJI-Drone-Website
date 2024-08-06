@@ -992,53 +992,20 @@
   ],
   "cart": [
     {
-      "id": "3",
-      "name": "Luhar Innovative Electronic DRONE BLACK Drone",
+      "id": "17",
+      "name": "MUGO K3&E99 HD Drone 4K Camera For Adults professional Grey 3 Smart Batteries Drone",
       "image": [
-        "https://m.media-amazon.com/images/I/61zwn-1n98L._SX522_.jpg",
-        "https://m.media-amazon.com/images/I/61JQ8NJ7pgL._SX522_.jpg",
-        "https://m.media-amazon.com/images/I/61Yf-6+AnML._SX522_.jpg",
-        "https://m.media-amazon.com/images/I/61XzRaUNXlL._SX522_.jpg",
-        "https://m.media-amazon.com/images/I/51Q6z5Bq6DL._SX522_.jpg",
-        "https://m.media-amazon.com/images/I/610zGPrFr3L._SX522_.jpg"
-      ],
-      "type": "Professionl Drone",
-      "range": "1 ft",
-      "price": "₹2,399",
-      "quantity": 2,
-      "qty": 1
-    },
-    {
-      "id": "1",
-      "name": "RSFuture E88 PRO Drone",
-      "image": [
-        "https://m.media-amazon.com/images/I/71JxzTk92JL._SX522_.jpg",
-        "https://m.media-amazon.com/images/I/71qrXoJ29TL._SX522_.jpg",
-        "https://m.media-amazon.com/images/I/71P24ZRpmWL._SX522_.jpg",
-        "https://m.media-amazon.com/images/I/71sQeYkDnlL._SX522_.jpg",
-        "https://m.media-amazon.com/images/I/61dh95sJPoL._SX522_.jpg",
-        "https://m.media-amazon.com/images/I/51yobsNmVPL._SX522_.jpg"
+        "https://m.media-amazon.com/images/I/41+aNsCI99L._SY300_SX300_.jpg",
+        "https://m.media-amazon.com/images/I/61gWc7t9LnL._SX522_.jpg",
+        "https://m.media-amazon.com/images/I/61VY1RbGC8L._SX522_.jpg",
+        "https://m.media-amazon.com/images/I/61+yWFT+xaL._SX522_.jpg",
+        "https://m.media-amazon.com/images/I/51sdeV4naoL._SX522_.jpg"
       ],
       "type": "Professionl Drone",
       "range": "100 m",
-      "price": "₹1,949",
-      "quantity": 1
-    },
-    {
-      "id": "12",
-      "name": "DRONE 100% Best Selling E88 Pro Camera for Adults, Folding Wifi Fpv Drone",
-      "image": [
-        "https://m.media-amazon.com/images/I/51NGRKG9oNL._SX522_.jpg",
-        "https://m.media-amazon.com/images/I/51QgocFMHBL._SX522_.jpg",
-        "https://m.media-amazon.com/images/I/51N9O3QBDXL._SX522_.jpg",
-        "https://m.media-amazon.com/images/I/61cL1u7oo7L._SX522_.jpg",
-        "https://m.media-amazon.com/images/I/61rLuhjMN1L._SX522_.jpg",
-        "https://m.media-amazon.com/images/I/61LyAIfdoKL._SX522_.jpg"
-      ],
-      "type": "Professionl Drone",
-      "range": "100 m",
-      "price": "₹2,499",
-      "quantity": 1
+      "price": "₹2,149",
+      "quantity": 1,
+      "qty": 4
     }
   ]
 }
