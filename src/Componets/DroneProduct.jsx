@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export function DroneProduct() {
     const[productdata,setproductdataa]=useState([])
     const descfunction=()=>{
-        axios.get(`http://localhost:3000/products`)
+        axios.get(`https://dji-drone-json.onrender.com/products`)
         .then((res)=>{setproductdataa(res.data)})
         .catch((err)=>{console.log(err)})
 

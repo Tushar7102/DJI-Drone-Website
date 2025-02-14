@@ -9,7 +9,7 @@ const AddToCart = () => {
   // Fetch cart data from the backend
   const fetchCartData = async () => {
     try {
-      const response = await axios.get("http://localhost:3000/cart");
+      const response = await axios.get("https://dji-drone-json.onrender.com/cart");
       const cartProducts = response.data.map(product => ({
         ...product,
         qty: product.qty || 1 // Ensure qty is initialized properly
@@ -29,7 +29,7 @@ const AddToCart = () => {
   // Remove product from the cart
   const removeProduct = async (id) => {
     try {
-      await axios.delete(`http://localhost:3000/cart/${id}`);
+      await axios.delete(`https://dji-drone-json.onrender.com/cart/${id}`);
       fetchCartData();
     } catch (error) {
       console.error("Error removing product:", error);
@@ -39,7 +39,7 @@ const AddToCart = () => {
   // Update product quantity in the cart
   const updateQuantity = async (id, qty) => {
     try {
-      await axios.patch(`http://localhost:3000/cart/${id}`, { qty });
+      await axios.patch(`https://dji-drone-json.onrender.com/cart/${id}`, { qty });
       fetchCartData();
     } catch (error) {
       console.error("Error updating quantity:", error);

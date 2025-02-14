@@ -9,7 +9,7 @@ function Description() {
 
   const fetchData = async () => {
     try {
-      const res = await axios.get(`http://localhost:3000/products/${id}`);
+      const res = await axios.get(`https://dji-drone-json.onrender.com/products/${id}`);
       setSinglePageData(res.data);
     } catch (err) {
       console.error(err);
@@ -19,12 +19,12 @@ function Description() {
   const AddToCart = async () => {
     try {
       // Check if the product already exists in the cart
-      const cartRes = await axios.get("http://localhost:3000/cart");
+      const cartRes = await axios.get("https://dji-drone-json.onrender.com/cart");
       const existingProduct = cartRes.data.find(item => item.id === singlePageData.id);
       
       if (existingProduct) {
         // Update the quantity if the product already exists
-        await axios.put(`http://localhost:3000/cart/${existingProduct.id}`, {
+        await axios.put(`https://dji-drone-json.onrender.com/cart/${existingProduct.id}`, {
           ...existingProduct,
           quantity: existingProduct.quantity + 1,
           price: singlePageData.price[0] // Ensure the price is consistent
@@ -40,7 +40,7 @@ function Description() {
           price: singlePageData.price[0],
           quantity: 1
         };
-        await axios.post("http://localhost:3000/cart", newProduct);
+        await axios.post("https://dji-drone-json.onrender.com/cart", newProduct);
       }
       alert("Product added to cart!");
     } catch (error) {
